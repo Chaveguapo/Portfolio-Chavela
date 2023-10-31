@@ -1,0 +1,38 @@
+/*Hero Styles*/
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1504198266287-1659872e6590?auto=format&fit=crop&q=80&w=1170&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 6rem;
+}
+
+.name {
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-bold);
+  font-size: 5em;
+  letter-spacing: -1px;
+  word-spacing: 0em;
+  padding-left: 4rem;
+}
+.text-hero {
+  align-self: center;
+  font-size: 1.5rem;
+  font-family: var(--ff-base);
+  padding-left: 4rem;
+  max-width: 50%;
+  color: #000000;
+}
+
+@media (max-width: 700px) {
+  .name {
+    padding-left: 3rem;
+  }
+  .text-hero {
+    max-width: 100%;
+    padding-left: 3rem;
+  }
+}
