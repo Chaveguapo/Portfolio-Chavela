@@ -1,15 +1,9 @@
 /*Content Styles (About me)*/
 .container-content {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 100%;
-  width: 100%;
-  margin: 0 auto;
-  gap: 2rem;
-  /* max-width: 80%;*/
-  height: 100%;
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
 }
 
 /*Aboutme section*/
@@ -25,8 +19,33 @@
 }
 
 .text-aboutme {
+  box-sizing: border-box;
   font-size: var(--fw-regular);
   font-family: var(--ff-base);
-  max-width: 70%;
-  align-self: center;
+}
+
+/*Content Skills */
+
+.skill-header {
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 1.5rem;
+  padding-left: 5rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+.icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
 }

@@ -8,7 +8,10 @@ export default function Work() {
     <>
       <CardGroup className="container-work">
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://picsum.photos/200/300?grayscale"
+          />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -17,12 +20,12 @@ export default function Work() {
               longer.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://picsum.photos/200/300?grayscale"
+          />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -30,12 +33,12 @@ export default function Work() {
               additional content.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://picsum.photos/200/300?grayscale"
+          />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -44,9 +47,6 @@ export default function Work() {
               than the first to show that equal height action.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
       </CardGroup>
     </>

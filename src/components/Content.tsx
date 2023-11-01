@@ -16,6 +16,52 @@ export default function Content() {
           imperdiet tellus, vel cursus nibh ex eu tortor. Nullam mi turpis,
           malesu
         </p>
+
+        <h2 className="skill-header">Skills</h2>
+
+        <div className="skills-wrapper">
+          <div className="first-set animate__animated animate__pulse">
+            <img
+              src={"https://picsum.photos//50?grayscale"}
+              alt={""}
+              loading="lazy"
+              className="icon icon-card"
+            />
+            <img
+              src={"https://picsum.photos/60/50?grayscale"}
+              alt=""
+              loading="lazy"
+              className="icon icon-card"
+            />
+            <img
+              src={"https://picsum.photos/60/50?grayscale"}
+              alt=""
+              loading="lazy"
+              className="icon icon-card"
+            />
+          </div>
+
+          <div className="second-set animate__animated animate__pulse">
+            <img
+              src="https://picsum.photos/60/50?grayscale"
+              alt=""
+              loading="lazy"
+              className="icon icon-card"
+            />
+            <img
+              src="https://picsum.photos/60/50?grayscale"
+              alt=""
+              loading="lazy"
+              className="icon icon-card"
+            />
+            <img
+              src="https://picsum.photos/60/50?grayscale"
+              alt=""
+              loading="lazy"
+              className="icon icon-card"
+            />
+          </div>
+        </div>
       </div>
     </>
   );
