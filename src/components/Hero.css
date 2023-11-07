@@ -25,6 +25,6 @@
 .text-hero {
   font-size: 1.2rem;
   font-family: var(--ff-base);
-  /* max-width: 65%; */
+  max-width: 65%;
   color: #000000;
 }

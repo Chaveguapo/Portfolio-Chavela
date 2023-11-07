@@ -1,0 +1,19 @@
+.header-container {
+  margin: 0 !important;
+}
+
+.name-Navbar {
+  letter-spacing: -1px;
+  font-size: 2rem !important;
+  font-family: var(--ff-accent);
+}
+
+.bg-body-tertiary {
+  display: flex;
+  flex-direction: row !important;
+  padding: 0 !important;
+}
+
+.mx-auto {
+  align-items: center;
+}
