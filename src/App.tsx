@@ -1,19 +1,21 @@
+import { Routes, Route } from "react-router-dom";
 import { Hero } from "./components/Hero";
-import Header from "./components/Header";
-import Content from "./components/Content";
-import "bootstrap/dist/css/bootstrap.min.css";
-
+import MyNavbar from "./components/MyNavbar";
+import About from "./components/About";
+import Footer from "./components/Footer";
 import Work from "./components/Work";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 export default function App() {
   return (
     <>
-      <Header />
+      <MyNavbar />
       <div className="container-canvas">
         <Hero />
-        <Content />
+        <About />
         <Work />
+        <Footer />
       </div>
     </>
   );

@@ -1,0 +1,70 @@
+/*Content Styles (About me)*/
+.aboutme-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: red solid;
+  padding: 2em;
+  justify-content: space-evenly;
+}
+
+/*Aboutme section*/
+
+.aboutme-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.quote {
+  margin-bottom: 1rem;
+  font-weight: var(--fw-bold);
+}
+
+.text-aboutme {
+  font-size: var(--fw-regular);
+  font-family: var(--ff-base);
+}
+
+/*Content Skills */
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+}
+.skills {
+  margin-top: 2.5rem;
+}
+.skill-header {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.skills-wrapper {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+}
+
+/* @media screen and (max-width: 300px) {
+  .aboutme-content {
+    width: 300px;
+  }
+  .skills-wrapper {
+    flex-direction: column;
+  }
+} */

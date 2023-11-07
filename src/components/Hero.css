@@ -1,13 +1,19 @@
 /*Hero Styles*/
-.hero {
+
+.hero-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  background-image: url("https://images.unsplash.com/photo-1504198266287-1659872e6590?auto=format&fit=crop&q=80&w=1170&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  background-size: cover;
-  background-position: center;
   height: 100%;
-  gap: 2rem;
+  /* width: 100%; */
+  background-image: url("https://images.unsplash.com/photo-1504198266287-1659872e6590?auto=format&fit=crop&q=80&w=1170&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: left;
+  justify-content: center;
+  border: purple solid;
+  padding: 0 2em;
 }
 
 .name {
@@ -15,27 +21,10 @@
   font-weight: var(--fw-bold);
   font-size: 5em;
   letter-spacing: -1px;
-  word-spacing: 0em;
-  padding-left: 4rem;
 }
 .text-hero {
-  align-self: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: var(--ff-base);
-  padding-left: 4rem;
-  max-width: 65%;
+  /* max-width: 65%; */
   color: #000000;
 }
-
-@media (max-width: 720px) {
-  .name {
-    font-size: 3em;
-    align-self: self-start;
-  }
-  .text-hero {
-    max-width: 100%;
-    padding-left: 1rem;
-  }
-}
-
-@media;
