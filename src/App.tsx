@@ -1,18 +1,18 @@
 import { Routes, Route } from "react-router-dom";
 import { Hero } from "./components/Hero";
-import MyNavbar from "./components/MyNavbar";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Work from "./components/Work";
-import MyNav2 from "./components/MyNav2";
+import MyNav from "./components/MyNav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+
+// The idea is keep feeding the portfolio, last time you were including the sections in the nav bar check if everything is ok and delete the rest
 
 export default function App() {
   return (
     <>
-      {/* <MyNavbar /> */}
-      <MyNav2 />
+      <MyNav />
       <div className="container-canvas">
         <Hero />
         <About />
