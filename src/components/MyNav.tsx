@@ -8,25 +8,25 @@ import Footer from "./Footer";
 import Work from "./Work";
 import About from "./About";
 
-export default function MyNav2() {
+export default function MyNav() {
   return (
     <>
       <Navbar
         collapseOnSelect
         expand="lg"
-        className="bg-body-tertiary"
+        className="navbar navbar-expand-lg navbar-ligth bg-body-tertiary"
         sticky="top"
       >
-        <Container className="header-container">
+        <Container className="container-fluid">
           <Navbar.Brand className="name-Navbar" href="#home">
-            Chavela Guapo
+            <h1>Chavela Guapo</h1>
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
-            className="toggler"
+            className="toggle"
           />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="position-absolute top-0 end-0">
+            <Nav className="navbar-nav ms-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#work">Work</Nav.Link>
@@ -35,19 +35,6 @@ export default function MyNav2() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
-      <div className="section" id="home">
-        <Hero />
-      </div>
-      <div className="section" id="about">
-        <About />
-      </div>
-      <div className="section" id="work">
-        <Work />
-      </div>
-      <div className="section" id="contact">
-        <Footer />
-      </div>
     </>
   );
 }

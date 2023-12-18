@@ -1,14 +1,10 @@
-.bg-body-tertiary {
-  display: flex;
-  flex-direction: row !important;
-  padding: 0 !important;
-  width: 100%;
-  row-gap: 5rem;
+.container-fluid {
+  border: red solid;
 }
 
 .name-Navbar {
   letter-spacing: -1px;
-  font-size: 2rem !important;
+  font-size: 2rem;
   font-family: var(--ff-accent);
 }
 
@@ -16,13 +12,9 @@
   justify-content: end;
   border: coral solid 2px;
 }
-.position-absolute {
-  row-gap: 5rem !important;
-}
-
-.section {
-  height: 95vh;
-}
+/* .position-absolute {
+  row-gap: 5rem;
+} */
 
 .position-absolute {
   transition: all linear 0.5s;
@@ -33,4 +25,9 @@
 
 .nav-link :active {
   color: blueviolet;
+}
+
+.container-sections {
+  align-items: ;
+  border: blue solid;
 }

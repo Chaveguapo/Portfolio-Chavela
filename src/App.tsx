@@ -12,8 +12,8 @@ import "./App.css";
 export default function App() {
   return (
     <>
-      <MyNav />
       <div className="container-canvas">
+        <MyNav />
         <Hero />
         <About />
         <Work />
