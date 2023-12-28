@@ -11,30 +11,31 @@ import About from "./About";
 export default function MyNav() {
   return (
     <>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        className="navbar navbar-expand-lg navbar-ligth bg-body-tertiary"
-        sticky="top"
-      >
-        <Container className="container-fluid">
-          <Navbar.Brand className="name-Navbar" href="#home">
-            <h1>Chavela Guapo</h1>
-          </Navbar.Brand>
-          <Navbar.Toggle
-            aria-controls="responsive-navbar-nav"
-            className="toggle"
-          />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="navbar-nav ms-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#work">Work</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+      <ul className="nav justify-content-lg-center">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#"></a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#home">
+            Home
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#about">
+            About
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#work">
+            Work
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#contact">
+            Contact
+          </a>
+        </li>
+      </ul>
     </>
   );
 }

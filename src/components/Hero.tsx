@@ -4,13 +4,14 @@ export const Hero = () => {
   return (
     <>
       <div className="hero-container">
+        <h2>Chavela Guapo</h2>
         <h1 className="name">Front-end Dev</h1>
         <div className="text-hero">
-          🚀 Adventurer from Amsterdam here! I've set sail in the vast sea of
-          coding, fueled by an insatiable curiosity and a zest for all things
-          code. On the lookout to join a crew of like-minded tech explorers,
-          where we can collaborate, learn, and transform bold ideas into
-          extraordinary digital wonders!
+          {/* 🌿 Hello from Amsterdam! I'm Chavela, casually cruising through the
+          coding waters with a keen interest and a laid-back attitude towards
+          tech. I'm on a cheerful journey to connect with fellow tech
+          enthusiasts, where we can share knowledge, create together, and turn
+          our collective curiosity into amazing digital creations! */}
         </div>
       </div>
     </>

@@ -8,14 +8,13 @@ export default function About() {
           <h3>About me</h3>
           <h1 className="quote">Journey before destination</h1>
           <p className="text-aboutme">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            pretium dignissim odio nec scelerisque. Quisque ac erat pulvinar,
-            finibus felis in, elementum ipsum. Ut hendrerit, turpis eu posuere
-            dignissim, eros augue imperdiet tellus, vel cursus nibh ex eu
-            tortor. Nullam mi turpis, malesusuere dignissim, eros augue
-            imperdiet tellus, vel cursus nibh ex eu tortor. Nullam mi turpis,
-            malesusuere dignissim, eros augue imperdiet tellus, vel cursus nibh
-            ex eu tortor. Nullam mi turpis, malesu
+            Hi, I'm Chavela! Enthusiast of all things green, a devoted reader,
+            and a lifelong learner. After wrapping up my studies in UX design,
+            the captivating world of web development caught my eye. Now, I find
+            joy in blending creative design with the nuts and bolts of coding.
+            Whether I'm nurturing my plants, losing myself in a good book, or
+            exploring the latest web technologies, I'm always on a quest for new
+            adventures and knowledge!
           </p>
         </div>
         <div className="skill-container">
