@@ -4,8 +4,8 @@ export const Hero = () => {
   return (
     <>
       <div className="hero-container">
-        <h2>Chavela Guapo</h2>
-        <h1 className="name">Front-end Dev</h1>
+        <h2>Cindy Chavez</h2>
+        <h1 className="name">Front-end Developer</h1>
         <div className="text-hero">
           {/* 🌿 Hello from Amsterdam! I'm Chavela, casually cruising through the
           coding waters with a keen interest and a laid-back attitude towards

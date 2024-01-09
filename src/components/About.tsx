@@ -6,15 +6,19 @@ export default function About() {
       <div className="aboutme-container">
         <div className="aboutme-wrapper">
           <h3>About me</h3>
-          <h1 className="quote">Journey before destination</h1>
+          <h1 className="quote">
+            Guided by a motto: "Journey before destination"
+          </h1>
+
           <p className="text-aboutme">
-            Hi, I'm Chavela! Enthusiast of all things green, a devoted reader,
-            and a lifelong learner. After wrapping up my studies in UX design,
-            the captivating world of web development caught my eye. Now, I find
-            joy in blending creative design with the nuts and bolts of coding.
-            Whether I'm nurturing my plants, losing myself in a good book, or
-            exploring the latest web technologies, I'm always on a quest for new
-            adventures and knowledge!
+            I am an enthusiast of all things green and a devoted reader, with my
+            path marked by lifelong learning and discovery. Having completed my
+            studies in UX design, I found myself captivated by the world of web
+            development. Now, I joyfully blend creative design with the
+            practicality of coding. Whether nurturing my plants, absorbed in a
+            good book, or delving into the latest web technologies, I am always
+            on a quest for new adventures and knowledge. For me, every step of
+            the journey is as enriching as the milestones I achieve.
           </p>
         </div>
         <div className="skill-container">
