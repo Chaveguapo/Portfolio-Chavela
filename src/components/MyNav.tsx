@@ -7,35 +7,24 @@ import "./MyNav.css";
 import Footer from "./Footer";
 import Work from "./Work";
 import About from "./About";
+import Logo from "../assets/Logo.png";
 
 export default function MyNav() {
   return (
-    <>
-      <ul className="nav justify-content-lg-center">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#"></a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#home">
-            Home
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#about">
-            About
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#work">
-            Work
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#contact">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </>
+    <div className="link_container">
+      <img className="logo" src={Logo} />
+      <a href="#home" className="navbar_link">
+        Home
+      </a>
+      <a href="#about" className="navbar_link">
+        About
+      </a>
+      <a href="#work" className="navbar_link">
+        Work
+      </a>
+      <a href="#contact" className="navbar_link">
+        Contact
+      </a>
+    </div>
   );
 }

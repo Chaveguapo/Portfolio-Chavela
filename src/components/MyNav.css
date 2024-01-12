@@ -1,4 +1,4 @@
-.container-fluid {
+/* .container-fluid {
   border: red solid;
 }
 
@@ -16,7 +16,7 @@
   row-gap: 5rem;
 } */
 
-.position-absolute {
+/* .position-absolute {
   transition: all linear 0.5s;
 }
 .nav-link {
@@ -30,4 +30,41 @@
 .container-sections {
   align-items: ;
   border: blue solid;
+} */
+
+/*NavBar*/
+
+.link_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
+  background-color: white;
 }
+
+.navbar_link {
+  color: black;
+  font-family: var(--ff-accent);
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding: 1.5em 2em;
+  text-decoration: none;
+}
+
+.navbar_link:hover {
+  color: purple;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.navbar_link:focus {
+  color: purple;
+}
+.logo {
+  height: 100%;
+  position: absolute;
+  left: 3em;
+}
+/*Burger Navigation*/

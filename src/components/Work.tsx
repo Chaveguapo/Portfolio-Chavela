@@ -6,7 +6,7 @@ import "./Work.css";
 export default function Work() {
   return (
     <>
-      <CardGroup className="container-work">
+      <CardGroup id="work" className="container-work">
         <Card>
           <Card.Img
             variant="top"

@@ -3,7 +3,7 @@ import "./Hero.css";
 export const Hero = () => {
   return (
     <>
-      <div className="hero-container">
+      <div id="hero" className="hero-container">
         <h2>Cindy Chavez</h2>
         <h1 className="name">Front-end Developer</h1>
         <div className="text-hero">

@@ -15,7 +15,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+  scroll-padding-top: 900em;
 }
 
 body {
@@ -42,7 +42,6 @@ h6 {
   height: 95vh;
   overflow-x: auto;
   overflow-y: scroll;
-  border: solid rgb(255, 0, 212);
 }
 
 @media screen and (max-width: 600px) {
