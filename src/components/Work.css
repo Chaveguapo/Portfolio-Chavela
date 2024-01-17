@@ -6,4 +6,5 @@
   flex-direction: column;
   padding: 2em;
   justify-content: space-evenly;
+  border: 2px solid red;
 }

@@ -1,0 +1,77 @@
+/*size xs*/
+/* @media (min-width: 475px) {
+
+} */
+/*size sml*/
+/* @media (min-width: 640px) {
+  
+} */
+/*size md*/
+/* @media (min-width: 768px) {
+  .
+} */
+
+/*size lg*/
+/* @media (min-width: 1024px) {
+  
+} */
+/*size xl*/
+/* @media (min-width: 1280px) {
+  
+} */
+/*size 2xl*/
+/* @media (min-width: 1536px) {
+  
+} */
+
+/*NavBar*/
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: inherit;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border: 1px solid red;
+  padding: 0;
+  gap: 2em;
+}
+
+.menu li {
+  display: flex;
+  text-decoration: none;
+  font-size: var(--size-xs);
+}
+
+.header__link {
+  color: var(--text);
+  font-size: var(--size-xs);
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+  transition: color 0.3s;
+}
+
+.header__link:hover {
+  cursor: pointer;
+  color: var(--clr-accent);
+}
+
+.navbar_link:focus {
+}
+.logo {
+  height: 100%;
+  position: absolute;
+  left: 3em;
+  cursor: pointer;
+}
+/*Burger Navigation*/
