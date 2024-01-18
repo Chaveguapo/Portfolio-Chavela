@@ -43,9 +43,7 @@ export default function Header() {
           </button>
         </li>
         <li>
-          <a className="header__resume btn" href="#">
-            Resume
-          </a>
+          <a className="header__resume btn">Resume</a>
         </li>
       </ul>
       <button className="header__bars">

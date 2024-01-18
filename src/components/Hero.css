@@ -13,11 +13,12 @@
 .hero__subtitle {
   font-size: var(--size-base);
   color: var(--clr-light);
+  line-height: 0.7;
 }
 
 .hero__title {
   color: var(--clr-light);
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: var(--size-4xl);
   letter-spacing: -0.04rem; /*Relative to font-size of the root element*/
   line-height: 1;
@@ -26,6 +27,18 @@
 .hero__description {
   max-width: 60ch; /*ch>>Relative to the width of the "0" (zero)*/
   font-size: var(--size-sm);
+  line-height: 0.2;
+}
+
+.hero__location {
+  display: flex;
+  align-items: center;
+}
+.hero__pin {
+  color: var(--clr-primary);
+  display: block;
+  width: 30px;
+  height: 30px;
 }
 
 /*size xs*/
@@ -72,7 +85,7 @@
   }
 
   .hero__subtitle {
-    font-size: var(--size-2xl);
+    font-size: var(--size-xl);
   }
 
   .hero__title {
@@ -95,7 +108,7 @@
   }
 
   .hero__subtitle {
-    font-size: var(--size-4xl);
+    font-size: var(--size-xl);
   }
 
   .hero__title {

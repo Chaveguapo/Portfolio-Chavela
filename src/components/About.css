@@ -1,27 +1,22 @@
 /*Content Styles (About me)*/
-.aboutme-container {
-  min-height: 100%;
+.about container {
+  text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 2em;
-  justify-content: space-evenly;
-  /* border: 2px solid red; */
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-/*Aboutme section*/
+/*Abou section*/
 
-.aboutme-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
+.about__quote {
+  line-height: 1.1;
+  text-align: center;
+  font-size: var(--size-4xl);
 }
 
-.quote {
-  margin-bottom: 1rem;
-  font-weight: var(--fw-bold);
-}
-
-.text-aboutme {
+.about__description {
   font-size: var(--fw-regular);
   font-family: var(--ff-base);
 }
@@ -50,15 +45,15 @@
 }
 
 .icon {
+  color: red;
   width: 5rem;
   height: 5rem;
 }
-
+/* 
 .icon-card {
-  background-color: #fff;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
-}
+} */
 
 /* @media screen and (max-width: 300px) {
   .aboutme-content {
