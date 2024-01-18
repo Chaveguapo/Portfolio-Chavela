@@ -4,8 +4,8 @@ import Typescript from "../assets/Icons/Typescript.svg";
 export default function About() {
   return (
     <>
-      <div id="about" className="about__container section">
-        <div className="about__container">
+      <section id="about" className="about container section">
+        <div className="about__content">
           <h1 className="about__quote">
             Guided by a motto:
             <strong>
@@ -73,7 +73,7 @@ export default function About() {
             />
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

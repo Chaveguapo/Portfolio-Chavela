@@ -32,9 +32,8 @@
 }
 
 .header__bars {
-  color: var(--clr-light);
-  width: var(--size-3xl);
-  height: var(--size-3x1);
+  width: var(--size-2xl);
+  height: var(--size-2x1);
   display: block;
   padding-right: 0.3em;
 }

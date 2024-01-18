@@ -28,7 +28,7 @@ export default function Header() {
           <button className="header__sun">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="none"
+              fill="#7EF695"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
@@ -49,7 +49,7 @@ export default function Header() {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
-          fill="white"
+          fill="#7EF695"
         >
           <path
             fill-rule="evenodd"
