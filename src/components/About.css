@@ -1,11 +1,11 @@
 /*Content Styles (About me)*/
-.about container {
-  text-align: center;
+.about__container {
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 /*Abou section*/
@@ -13,12 +13,16 @@
 .about__quote {
   line-height: 1.1;
   text-align: center;
-  font-size: var(--size-4xl);
 }
 
 .about__description {
-  font-size: var(--fw-regular);
-  font-family: var(--ff-base);
+  max-width: 60ch;
+}
+
+.about__hr {
+  border-color: var(--clr-primary);
+  border: 4px solid red;
+  width: 2rem;
 }
 
 /*Content Skills */

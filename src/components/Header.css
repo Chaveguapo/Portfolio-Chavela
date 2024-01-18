@@ -18,9 +18,9 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: sticky;
-  position: -webkit-sticky;
-  background-color: inherit;
+  /* position: sticky;
+  position: -webkit-sticky; */
+  /* background-color: inherit; */
   padding-top: 2rem;
   padding-bottom: 2rem;
   position: relative;
@@ -33,9 +33,10 @@
 
 .header__bars {
   color: var(--clr-light);
-  width: var(--size-2xl);
-  height: var(--size-2x1);
+  width: var(--size-3xl);
+  height: var(--size-3x1);
   display: block;
+  padding-right: 0.3em;
 }
 /*size xs*/
 /* @media (min-width: 475px) {
@@ -99,3 +100,9 @@
     font-size: var(--size-sm);
   }
 }
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

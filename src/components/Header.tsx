@@ -1,5 +1,4 @@
 import "./Header.css";
-import Logo from "../assets/Logo.png";
 
 export default function Header() {
   return (
@@ -43,7 +42,7 @@ export default function Header() {
           </button>
         </li>
         <li>
-          <a className="header__resume btn">Resume</a>
+          <button className="header__resume btn">Resume</button>
         </li>
       </ul>
       <button className="header__bars">
