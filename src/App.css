@@ -22,7 +22,7 @@
   --size-sm: 0.875rem;
   --size-base: 1rem;
   --size-lg: 1.125rem;
-  --size-xl: 1.125rem;
+  --size-xl: 1.25rem;
   --size-2xl: 1.5rem;
   --size-3xl: 1.875rem;
   --size-4xl: 2.25rem;
@@ -90,20 +90,4 @@ a {
 
 strong {
   color: var(--clr-accent);
-}
-/* .container-canvas {
-  width: 100%;
-  height: 95vh;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  overflow-x: auto;
-  overflow-y: scroll;
-} */
-
-@media screen and (max-width: 600px) {
-  .container-canvas {
-    padding: 0;
-  }
 }

@@ -3,12 +3,14 @@ import "./Hero.css";
 export const Hero = () => {
   return (
     <>
-      <div id="hero" className="hero-container">
-        <h2>Cindy Chavez</h2>
-        <h1 className="name">
-          <strong>Front-end</strong> web developer
+      <div id="hero" className="hero">
+        <p className="hero__subtitle">I'm Cindy Chavez</p>
+        <h1 className="hero__title">
+          <strong>Front-end</strong>
+          <br />
+          web developer
         </h1>
-        <p className="text-hero">Based in Amsterdam</p>
+        <p className="hero__description">Based in Amsterdam</p>
       </div>
     </>
   );

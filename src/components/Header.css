@@ -1,16 +1,3 @@
-/*size xs*/
-/* @media (min-width: 475px) {
-
-} */
-/*size sml*/
-/* @media (min-width: 640px) {
-  
-} */
-/*size md*/
-/* @media (min-width: 768px) {
-  .
-} */
-
 /*size lg*/
 /* @media (min-width: 1024px) {
   
@@ -26,6 +13,7 @@
 
 /*NavBar*/
 
+/*Burger Navigation*/
 .header {
   display: flex;
   justify-content: flex-end;
@@ -35,43 +23,79 @@
   background-color: inherit;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  position: relative;
+  z-index: 9999;
 }
 
 .header__menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  border: 1px solid red;
-  padding: 0;
-  gap: 2em;
+  display: none;
 }
 
-.menu li {
-  display: flex;
-  text-decoration: none;
-  font-size: var(--size-xs);
+.header__bars {
+  color: var(--clr-light);
+  width: var(--size-2xl);
+  height: var(--size-2x1);
+  display: block;
+}
+/*size xs*/
+/* @media (min-width: 475px) {
+} */
+/*size sml*/
+/* @media (min-width: 640px) {
+} */
+
+/*size md*/
+@media (min-width: 768px) {
+  .header__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 2em;
+  }
+
+  .header__link {
+    color: var(--text);
+    font-size: var(--size-xs);
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    transition: color 0.3s;
+  }
+
+  .header__link:hover {
+    cursor: pointer;
+    color: var(--clr-accent);
+  }
+
+  .header__sun {
+    display: block;
+    color: var(--clr-light);
+    width: var(--size-base);
+    height: var(--size-base);
+  }
+
+  .header__resume {
+    font-size: var(--size-xs);
+  }
+  .header__bars {
+    display: none;
+  }
 }
 
-.header__link {
-  color: var(--text);
-  font-size: var(--size-xs);
-  font-weight: 400;
-  text-decoration: none;
-  letter-spacing: -0.05em;
-  transition: color 0.3s;
-}
+/*size lg*/
+@media (min-width: 1024px) {
+  .header__link {
+    font-size: var(--size-sm);
+  }
 
-.header__link:hover {
-  cursor: pointer;
-  color: var(--clr-accent);
-}
+  .header__sun {
+    display: block;
+    width: var(--size-xl);
+    height: var(--size-xl);
+  }
 
-.navbar_link:focus {
+  .header__resume {
+    font-size: var(--size-sm);
+  }
 }
-.logo {
-  height: 100%;
-  position: absolute;
-  left: 3em;
-  cursor: pointer;
-}
-/*Burger Navigation*/

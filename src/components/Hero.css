@@ -1,29 +1,112 @@
 /*Hero Styles*/
 
-.hero-container {
+.hero {
+  text-align: center;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  /* width: 100%; */
-  align-self: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  align-items: left;
   justify-content: center;
-  padding: 0 2em;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
-.name {
-  font-family: var(--ff-accent);
-  font-weight: var(--fw-bold);
-  color: var(--clr-light);
-  font-size: 5em;
-  letter-spacing: -1px;
-}
-.text-hero {
-  font-size: 1.2rem;
-  font-family: var(--ff-base);
-  max-width: 65%;
+.hero__subtitle {
+  font-size: var(--size-base);
   color: var(--clr-light);
 }
+
+.hero__title {
+  color: var(--clr-light);
+  text-transform: uppercase;
+  font-size: var(--size-4xl);
+  letter-spacing: -0.04rem; /*Relative to font-size of the root element*/
+  line-height: 1;
+}
+
+.hero__description {
+  max-width: 60ch; /*ch>>Relative to the width of the "0" (zero)*/
+  font-size: var(--size-sm);
+}
+
+/*size xs*/
+@media (min-width: 475px) {
+  .hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .hero__subtitle {
+    font-size: var(--size-lg);
+  }
+
+  .hero__title {
+    font-size: var(--size-5xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-base);
+  }
+}
+/*size sml*/
+/* @media (min-width: 640px) {
+  
+} */
+/*size md*/
+/* @media (min-width: 768px) {
+  .
+} */
+
+/*size lg*/
+@media (min-width: 1024px) {
+  .hero {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1.5rem;
+  }
+
+  .hero__subtitle {
+    font-size: var(--size-2xl);
+  }
+
+  .hero__title {
+    font-size: var(--size-7xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-lg);
+  }
+}
+/*size xl*/
+@media (min-width: 1280px) {
+  .hero {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: var(--size-4xl);
+  }
+
+  .hero__title {
+    font-size: var(--size-8xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-xl);
+  }
+}
+/*size 2xl*/
+/* @media (min-width: 1536px) {
+  
+} */
