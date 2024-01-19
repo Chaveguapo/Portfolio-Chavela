@@ -4,7 +4,7 @@ import Typescript from "../assets/Icons/Typescript.svg";
 export default function About() {
   return (
     <>
-      <section id="about" className="about container section">
+      <section id="about" className="about section">
         <div className="about__content">
           <h1 className="about__quote">
             Guided by a motto:
@@ -12,14 +12,7 @@ export default function About() {
               <br /> "Journey before <br /> destination"
             </strong>
           </h1>
-          <hr
-            style={{
-              background: "#7EF695",
-              color: "lime",
-              borderColor: "lime",
-              width: "200px",
-            }}
-          />
+
           <p className="about__description">
             Passionate about everything green, I'm a book lover and
             <strong>
@@ -31,48 +24,27 @@ export default function About() {
             an exciting quest for knowledge.
           </p>
         </div>
-        <div className="skill-container">
-          <h3>In this journey I've been working with ...</h3>
-          <div className="skills-wrapper">
-            <img
-              src={Typescript}
-              alt={"Javascript"}
-              loading="lazy"
-              className="icon "
-            />
-            <img
-              src={"https://picsum.photos/60/50?grayscale"}
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-            <img
-              src={"https://picsum.photos/60/50?grayscale"}
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
+        <br />
+        {/* <div className="skill-container"> */}
+        <p>
+          <strong>In this journey I've been working with ...</strong>
+        </p>
+        <div className="skills-wrapper">
+          <i className="devicon-github-original "></i>
 
-            <img
-              src="https://picsum.photos/60/50?grayscale"
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-            <img
-              src="https://picsum.photos/60/50?grayscale"
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-            <img
-              src="https://picsum.photos/60/50?grayscale"
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-          </div>
+          <i className="devicon-javascript-plain"></i>
+
+          <i className="devicon-react-plain"></i>
+
+          <i className="devicon-figma-plain"></i>
+
+          <i className="devicon-html5-plain"></i>
+          <i className="devicon-html5-plain"></i>
+          <i className="devicon-html5-plain"></i>
+          <i className="devicon-html5-plain"></i>
+          <i className="devicon-html5-plain"></i>
         </div>
+        {/* </div> */}
       </section>
     </>
   );

@@ -1,22 +1,29 @@
-/*Content Styles (About me)*/
-.about__container {
+.about {
   display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  border: 2px solid lime;
 }
 
 .about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .about__quote {
-  line-height: 1.1;
+  line-height: 1.4;
   text-align: center;
+  font-size: var(--size-3xl);
+  color: var(--clr-light);
 }
 
 .about__description {
   max-width: 60ch;
+  font-size: var(--size-sm);
+  color: var(--clr-light);
 }
 
 .about__hr {
@@ -28,6 +35,8 @@
 /*Content Skills */
 
 .skill-container {
+  font-size: var(--size-sm);
+  color: var(--clr-light);
   display: flex;
   flex-direction: column;
 }
@@ -35,21 +44,23 @@
   margin-top: 2.5rem;
 }
 .skill-header {
-  margin-bottom: 1rem;
-  text-align: left;
+  /* margin-bottom: 1rem;
+  text-align: left; */
 }
 
 .skills-wrapper {
+  width: 100%;
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-around;
+  color: var(--clr-primary);
+  font-size: var(--size-6xl);
 }
 
 .icon {
-  color: red;
+  color: var(--clr-primary);
   width: 5rem;
   height: 5rem;
 }
