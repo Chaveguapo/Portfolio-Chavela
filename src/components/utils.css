@@ -1,25 +1,31 @@
-/*size sml*/
-/* @media (min-width: 640px) {
-  
-} */
+/*-----------Screen Sizes--------------*/
+
+/*Small screens Size - SM/
+/*size sm 
+@media (min-width: 640px) {}
+*/
+
+/*Medium screens Size - MD/
 /*size md*/
 /* @media (min-width: 768px) {
   .
 } */
 
+/*Large screens Size - LG/
 /*size lg*/
 /* @media (min-width: 1024px) {
   
 */
+/*-----------Utilities to used throught-------------*/
 
 .btn {
   display: inline-block;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   letter-spacing: -0.02em;
-  padding: 0.5em 1em;
+  padding: 0.5em 0.8em;
   border-radius: 6px;
-  border: 2px solid var(--clr-primary);
+  border: 1px solid var(--clr-primary);
   box-shadow: 0 10px 20px rgba(126, 246, 149, 0.2);
   font-family: var(--ff-base);
   /*Add outline button*/

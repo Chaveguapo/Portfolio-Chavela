@@ -10,8 +10,8 @@ export const Hero = () => {
           <br />
           web developer
         </h1>
-        <div className="hero__location">
-          <span className="material-icons">location_on</span>
+        <div className="hero__location ">
+          <span className="material-icons hero__pin">location_on</span>
 
           <p className="hero__description">Based in Amsterdam</p>
         </div>

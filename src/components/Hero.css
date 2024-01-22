@@ -1,5 +1,6 @@
 /*Hero Styles*/
-
+/*Small screens Size - SM/
+/*size sm*/
 .hero {
   text-align: center;
   display: flex;
@@ -35,13 +36,11 @@
   align-items: center;
 }
 .hero__pin {
-  display: block;
-  position: relative;
-  width: 1rem;
-  height: 1rem;
+  color: var(--clr-primary);
 }
 
-/*size Medium*/
+/*Medium screens Size - MD/
+/*size md*/
 @media (min-width: 768px) {
   .hero {
     text-align: left;
@@ -65,7 +64,8 @@
   }
 }
 
-/*size large*/
+/*Large screens Size - LG/
+/*size lg*/
 @media (min-width: 1024px) {
   .hero {
     text-align: left;

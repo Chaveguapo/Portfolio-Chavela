@@ -28,7 +28,7 @@ export default function Header() {
           <button className="header__resume btn">Resume</button>
         </li>
         <li>
-          <span className="material-icons">light_mode</span>
+          <span className="material-icons header__sun">light_mode</span>
         </li>
       </ul>
       <button>
