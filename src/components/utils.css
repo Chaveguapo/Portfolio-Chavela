@@ -25,8 +25,8 @@
   /*Add outline button*/
 }
 .btn:hover {
-  background-color: var(--clr-accent);
-  box-shadow: 0 10px 20px rgba(126, 176, 175);
+  background-color: var(--clr-primary);
+  color: var(--clr-dark);
 }
 
 .container {

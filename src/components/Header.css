@@ -33,10 +33,6 @@
 
 /*size md*/
 @media (min-width: 768px) {
-  .header {
-    /* position: sticky;
-  position: -webkit-sticky; */
-  }
   .header__menu {
     display: flex;
     align-items: center;
