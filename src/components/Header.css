@@ -1,5 +1,6 @@
-/*Small screens Size - SM/
-/*size sm*/
+/*-----------Small screens Size - SM--------------/
+(min-width: 640px)*/
+
 .header {
   display: flex;
   justify-content: flex-end;
@@ -22,8 +23,9 @@
   display: block;
 }
 
-/*Medium screens Size - MD/
+/*-----------Medium screens Size - MD---------------*/
 /*size md*/
+
 @media (min-width: 768px) {
   .header {
     position: sticky;
@@ -65,7 +67,7 @@
   }
 }
 
-/*Large screens Size - LG/
+/*------------Large screens Size - LG--------------*/
 /*size lg*/
 @media (min-width: 1024px) {
   .header__link {

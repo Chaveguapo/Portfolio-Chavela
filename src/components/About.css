@@ -1,5 +1,4 @@
-/*Small screens Size - SM/
-/*size sm 
+/*-----------Small screens Size - SM--------------/
 (min-width: 640px)
 */
 .about {
@@ -9,6 +8,7 @@
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  padding-top: 1rem;
 }
 
 .about__content {
@@ -32,39 +32,37 @@
 }
 
 .about__skills {
-  letter-spacing: -0.02rem;
   font-weight: 500;
   font-size: var(--size-md);
   width: 15rem;
   height: 2rem;
-  line-height: 1.2;
 }
 
 .skills-wrapper {
+  width: 80%;
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
   gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   color: var(--clr-primary);
-  font-size: var(--size-6xl);
+  font-size: var(--size-7xl);
 }
 
-/*-----------Medium screens Size - MD---------------/
+/*-----------Medium screens Size - MD---------------*/
 /*size md*/
 @media (min-width: 768px) {
   .about__content {
-    display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2.5rem;
+    justify-content: center;
   }
   .about__quote {
-    flex: 5;
+    flex: 6;
     line-height: 1.1;
-    text-align: left;
+    text-align: center;
     font-size: var(--size-3xl);
     color: var(--clr-light);
   }
@@ -87,28 +85,24 @@
 /*------------Large screens Size - LG-------------*/
 /*size lg*/
 @media (min-width: 1024px) {
-  .about__content {
-    display: flex;
-    justify-items: center;
-    align-items: flex-end;
-  }
   .about__quote {
-    justify-content: center;
-    text-align: left;
-    line-height: 1;
     font-size: var(--size-5xl);
     color: var(--clr-light);
   }
 
   .about__description {
-    font-size: var(--size-xl);
+    text-align: end;
+    font-size: var(--size-lg);
     align-items: flex-end;
   }
 
   .about__skills {
     font-weight: 500;
     font-size: var(--size-xl);
-    width: 30%;
-    line-height: 1;
+    /* width: 30%; */
+    padding: 1rem;
+  }
+  .skills-wrapper {
+    gap: 0;
   }
 }

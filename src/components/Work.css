@@ -1,11 +1,12 @@
-/*Small screens Size - SM/
-/*size sm */
+/*-----------Small screens Size - SM--------------/
+(min-width: 640px)
 
 /*Bento grid*/
 .work__title {
   font-size: var(--size-4xl);
-  padding: 2rem;
+  padding: 5rem;
   text-align: center;
+  border: 2px solid red;
 }
 
 .work__container {
@@ -21,7 +22,7 @@
   font-weight: var(--size-2xl);
 }
 
-/*Flip Card effects*/
+/*----------Flip Card effects----------*/
 
 .flip-card {
   width: 15rem;
@@ -72,7 +73,7 @@
   line-height: 1.5;
 }
 
-/*Styles for bento boxes*/
+/*-------------Styles for bento boxes-------------*/
 .work__line {
   width: 70%;
 }
@@ -107,13 +108,13 @@
 .line_primary {
   border: 1px solid var(--clr-primary);
 }
-/*Medium screens Size - MD/
+/*-----------Medium screens Size - MD---------------*/
 /*size md*/
 /* @media (min-width: 768px) {
   .
 } */
 
-/*Large screens Size - LG/
+/*------------Large screens Size - LG--------------*/
 /*size lg*/
 /* @media (min-width: 1024px) {
   
