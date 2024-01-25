@@ -11,7 +11,7 @@ export default function About() {
               <br /> "Journey before <br /> destination"
             </strong>
           </h1>
-
+          <div className="about__line"></div>
           <article className="about__description ">
             Passionate about everything green, I'm a book lover and
             <strong>

@@ -3,17 +3,19 @@ import "./Work.css";
 
 export default function Work() {
   return (
-    <div>
-      <h1 className="work__title section">Work</h1>
-
-      <div className="work__container">
+    <div className="section">
+      <div className="work__box_title">
+        <h1 className="work__title">
+          Embarking on <br /> Developmental Odysseys
+        </h1>
+        <div className="work__section_line"></div>
+      </div>
+      <div className="work__container ">
         {/* Flip Card 1 */}
-        <div className=" flip-card ">
-          <div className="flip-card-inner bento_dark">
+        <div className=" flip-card flip_title_card ">
+          <div className="flip-card-inner bento_dark ">
             <div className="flip-card-front">
-              <p>
-                Embarking on <br /> Developmental Odysseys
-              </p>
+              Tittle
               <hr className="work__line line_primary"></hr>
             </div>
             <div className="flip-card-back">
@@ -38,8 +40,8 @@ export default function Work() {
             </div>
             <div className="flip-card-back ">
               <p>
-                Learning to code is a magical journey, unveiling secrets of
-                algorithms and dital wizard, creating wonders with code.
+                Creating from scratch is challenging yet rewarding, offering a
+                fulfilling dive into the coding world.
               </p>
             </div>
           </div>
@@ -66,6 +68,20 @@ export default function Work() {
                 Currently <br /> I'm working on
               </p>
               <hr className="work__line line_dark"></hr>
+            </div>
+            <div className="flip-card-back">
+              <p>Current project details...</p>
+            </div>
+          </div>
+        </div>
+        {/* Flip Card 5 */}
+        <div className="flip-card">
+          <div className=" flip-card-inner bento_dark">
+            <div className="flip-card-front">
+              <p>
+                Currently <br /> I'm working on
+              </p>
+              <hr className="work__line line_light"></hr>
             </div>
             <div className="flip-card-back">
               <p>Current project details...</p>

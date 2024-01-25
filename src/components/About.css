@@ -14,8 +14,17 @@
 .about__content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
 }
+
+.about__line {
+  border: 1px solid var(--clr-primary);
+  width: 60%;
+  height: 0;
+}
+
 .about__quote {
   line-height: 1.1;
   text-align: center;
@@ -48,7 +57,12 @@
   align-items: center;
   justify-content: space-evenly;
   color: var(--clr-primary);
-  font-size: var(--size-7xl);
+  font-size: var(--size-5xl);
+}
+
+.skills-wrapper i {
+  /*flex: 1 >>(Flex-grow) 0>>>(flex shrink) 25%>> (flex basis) max size of every part*/
+  flex: 1 0 25%;
 }
 
 /*-----------Medium screens Size - MD---------------*/
@@ -56,8 +70,11 @@
 @media (min-width: 768px) {
   .about__content {
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  }
+
+  .about__line {
+    height: 150px;
+    width: 0px;
   }
   .about__quote {
     flex: 6;
@@ -80,6 +97,10 @@
     height: 2rem;
     line-height: 1;
   }
+  .skills-wrapper i {
+    /*flex: 1 >>(Flex-grow) 0>>>(flex shrink) 25%>> (flex basis) max size of every part*/
+    flex: 1 0 14%;
+  }
 }
 
 /*------------Large screens Size - LG-------------*/
@@ -91,7 +112,7 @@
   }
 
   .about__description {
-    text-align: end;
+    text-align: center;
     font-size: var(--size-lg);
     align-items: flex-end;
   }
