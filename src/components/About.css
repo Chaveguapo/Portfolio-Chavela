@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .about__line {
@@ -29,7 +29,7 @@
   line-height: 1.1;
   text-align: center;
   font-size: var(--size-3xl);
-  letter-spacing: -0.02rem;
+  letter-spacing: -0rem;
   color: var(--clr-light);
 }
 
@@ -42,9 +42,9 @@
 
 .about__skills {
   font-weight: 500;
-  font-size: var(--size-md);
-  width: 15rem;
-  height: 2rem;
+  font-size: var(--size-lg);
+  /* width: 15rem;
+  height: 2rem; */
 }
 
 .skills-wrapper {

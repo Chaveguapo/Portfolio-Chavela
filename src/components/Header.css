@@ -50,10 +50,12 @@
 
   .header__link:hover {
     cursor: pointer;
-    color: var(--clr-accent);
+    color: var(--clr-primary);
+    transition: 1s;
   }
 
   .header__sun {
+    visibility: hidden;
     color: var(--clr-primary);
     width: var(--size-base);
     height: var(--size-base);
@@ -75,6 +77,7 @@
   }
 
   .header__sun {
+    visibility: hidden;
     width: var(--size-lg);
     height: var(--size-lg);
   }

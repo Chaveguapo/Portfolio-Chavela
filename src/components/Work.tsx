@@ -6,7 +6,8 @@ export default function Work() {
     <div className="section">
       <div className="work__box_title">
         <h1 className="work__title">
-          Embarking on <br /> Developmental Odysseys
+          A <strong>Portfolio</strong> of
+          <br /> Growing Pains and Glowing Gains!
         </h1>
         <div className="work__section_line"></div>
       </div>
@@ -82,6 +83,20 @@ export default function Work() {
                 Currently <br /> I'm working on
               </p>
               <hr className="work__line line_light"></hr>
+            </div>
+            <div className="flip-card-back">
+              <p>Current project details...</p>
+            </div>
+          </div>
+        </div>
+        {/* Flip Card 6 */}
+        <div className="flip-card">
+          <div className=" flip-card-inner bento_light">
+            <div className="flip-card-front">
+              <p>
+                Currently <br /> I'm working on
+              </p>
+              <hr className="work__line line_dark"></hr>
             </div>
             <div className="flip-card-back">
               <p>Current project details...</p>

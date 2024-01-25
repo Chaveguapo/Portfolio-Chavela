@@ -24,9 +24,7 @@ export default function About() {
           </article>
         </div>
 
-        <p className="about__skills">
-          In this journey I've been working with...
-        </p>
+        <p className="about__skills"> I've been exploring on these planets </p>
         <div className="skills-wrapper section ">
           <i className="devicon-react-plain"></i>
           <i className="devicon-javascript-plain"></i>

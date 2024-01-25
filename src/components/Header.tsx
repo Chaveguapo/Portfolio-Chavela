@@ -16,7 +16,7 @@ export default function Header() {
         </li>
         <li>
           <a href="#work" className="header__link">
-            Work
+            Portfolio
           </a>
         </li>
         <li>
