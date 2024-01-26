@@ -1,17 +1,35 @@
 /*Small screens Size - SM/
 /*size sm */
 .contact__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
   font-family: var(--ff-accent);
   font-size: var(--size-2xl);
   line-height: 1.1;
-  padding-top: 5rem;
-  padding-bottom: 10rem;
-  border: solid red 2px;
+  padding-bottom: 13rem;
+  gap: 2rem;
 }
 
 .contact__button {
-  padding-top: 2rem;
+  margin-top: 2rem;
+  align-self: center;
 }
+.contact__icons {
+  display: flex;
+  gap: 1rem;
+  color: var(--clr-primary);
+  padding-top: 3rem;
+}
+.contact__copyright {
+  font-family: var(--ff-base);
+  font-size: var(--size-xs);
+  opacity: 40%;
+}
+
 /*Medium screens Size - MD/
 /*size md*/
 /* @media (min-width: 768px) {

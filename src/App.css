@@ -52,6 +52,9 @@ body {
   font-family: var(--ff-base);
   line-height: 1.6;
   min-width: 300px;
+  background-image: url(./assets/wavesdown.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 h1,

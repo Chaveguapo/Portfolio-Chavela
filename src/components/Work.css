@@ -43,7 +43,23 @@
   min-width: 18rem;
   height: 20rem;
   align-self: flex-start;
+
   /* perspective: 1000px; */
+}
+
+.flip-card::before {
+  background: radial-gradient(
+    800px circle at 100px 100px,
+    rgba(255, 255, 255, 0.06)
+  );
+  border-radius: inherit;
+  content: "";
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  z-index: 2;
 }
 
 .flip-card-inner {
@@ -102,6 +118,7 @@
 
 .bento_light {
   background-color: var(--clr-light);
+
   color: var(--clr-dark);
 }
 .bento_secondary {
