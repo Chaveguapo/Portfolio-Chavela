@@ -55,7 +55,6 @@
   }
 
   .header__sun {
-    visibility: hidden;
     color: var(--clr-primary);
     width: var(--size-base);
     height: var(--size-base);
@@ -77,7 +76,6 @@
   }
 
   .header__sun {
-    visibility: hidden;
     width: var(--size-lg);
     height: var(--size-lg);
   }

@@ -89,12 +89,7 @@
 /*size lg*/
 @media (min-width: 1024px) {
   .hero {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: self-start;
-    gap: 2rem;
+    padding: 2rem;
   }
   .hero__subtitle {
     font-size: var(--size-2xl);
