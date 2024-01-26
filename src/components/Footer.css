@@ -1,8 +1,17 @@
 /*Small screens Size - SM/
-/*size sm 
-@media (min-width: 640px) {}
-*/
+/*size sm */
+.contact__container {
+  font-family: var(--ff-accent);
+  font-size: var(--size-2xl);
+  line-height: 1.1;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  border: solid red 2px;
+}
 
+.contact__button {
+  padding-top: 2rem;
+}
 /*Medium screens Size - MD/
 /*size md*/
 /* @media (min-width: 768px) {
