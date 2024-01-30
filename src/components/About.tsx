@@ -8,7 +8,7 @@ export default function About() {
           <h1 className="about__quote">
             Guided by a motto:
             <strong>
-              <br /> "Journey before <br /> destination"
+              <br /> "Journey before <br /> destination" B.S
             </strong>
           </h1>
           <div className="about__line"></div>

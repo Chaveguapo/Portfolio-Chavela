@@ -10,6 +10,22 @@
   --fw-regular: 400;
   --fw-bold: 600;
 
+  /* light: (
+      text: #032609,
+      background: #e2fde9,
+      primary: #b5fab9,
+      secondary: #04053e,
+      accent: #81f0ee
+    ),
+    dark: (
+      text: #d9fcdf,
+      background: #021d09,
+      primary: #054808,
+      secondary: #c1c2fb,
+      accent: #0f807e
+    ) */
+  /* ); */
+
   /*primary:rgb(126, 246, 149)*/
   /*accent :rgb(47, 11, 150);*/
 
