@@ -1,8 +1,9 @@
+import Footer from "./Footer";
 import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <ul className="header__menu">
         <li>
           <a href="#hero" className="header__link">
@@ -34,6 +35,6 @@ export default function Header() {
       <button>
         <span className="material-icons header__bars">menu</span>
       </button>
-    </div>
+    </header>
   );
 }

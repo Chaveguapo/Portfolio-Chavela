@@ -9,7 +9,7 @@ import EmotionApp from "../assets/Images/EmotionApp.png";
 export default function Work() {
   return (
     <>
-      <div className="section">
+      <section id="work" className="section">
         <div className="work__box_title">
           <h1 className="work__title">
             A <strong>Portfolio</strong> of
@@ -103,7 +103,7 @@ export default function Work() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -3,7 +3,7 @@ import "./About.css";
 export default function About() {
   return (
     <>
-      <div id="about" className="about section">
+      <section id="about" className="about section">
         <div className="about__content ">
           <h1 className="about__quote">
             Guided by a motto:
@@ -33,7 +33,7 @@ export default function About() {
           <i className="devicon-figma-plain"></i>
           <i className="devicon-css3-plain-wordmark"></i>
         </div>
-      </div>
+      </section>
     </>
   );
 }

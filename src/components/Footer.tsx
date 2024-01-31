@@ -3,7 +3,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <>
-      <div
+      <footer
         id="contact"
         className="contact__container section
       "
@@ -22,7 +22,7 @@ export default function Footer() {
         <span className="contact__copyright">
           &copy;2024 Chavela Guapo | All Rights Reserved
         </span>
-      </div>
+      </footer>
     </>
   );
 }
