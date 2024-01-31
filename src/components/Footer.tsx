@@ -19,9 +19,7 @@ export default function Footer() {
           <i className="devicon-linkedin-plain "></i>
           <i className="devicon-github-original "></i>
         </div>
-        <span className="contact__copyright">
-          &copy;2024 Chavela Guapo | All Rights Reserved
-        </span>
+        <span className="contact__copyright"> Chavela Guapo </span>
       </footer>
     </>
   );

@@ -35,6 +35,43 @@ export default function Header() {
       <button>
         <span className="material-icons header__bars">menu</span>
       </button>
+
+      {/*  // <------- Start Mobile Navigation------->*/}
+
+      <div className="mobile_nav">
+        <nav>
+          <ul className="mobile_nav-menu">
+            <li>
+              <a className="mobile_nav-link" href="#home">
+                Home
+              </a>
+            </li>
+            <li>
+              <a className="mobile_nav-link" href="#about">
+                About
+              </a>
+            </li>
+
+            <li>
+              <a className="mobile_nav-link" href="work">
+                Work
+              </a>
+            </li>
+            <li>
+              <a className="mobile_nav-link" href="contact">
+                Contact
+              </a>
+            </li>
+            <li>
+              <span className="material-icons mobile_nav-sun">light_mode</span>
+            </li>
+            <li>
+              <button className="mobile_nav-btn btn">Resume</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      {/*  // <------- End Mobile Navigation------->*/}
     </header>
   );
 }
