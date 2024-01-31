@@ -133,22 +133,26 @@
 
 /*-----------Medium screens Size - MD---------------*/
 /*size md*/
-/* @media (min-width: 768px) {
-  .
-} */
+@media (min-width: 768px) {
+  .work__title {
+    padding-top: 2rem;
+    line-height: 1.2;
+    font-size: var(--size-3xl);
+  }
+}
 
 /*------------Large screens Size - LG--------------*/
 /*size lg*/
 @media (min-width: 1024px) {
+  .work__title {
+    font-size: var(--size-5xl);
+  }
   .work__container {
     padding: 5rem;
     flex-direction: row;
     align-self: center;
   }
-  .work__title {
-    line-height: 1.2;
-    font-size: var(--size-5xl);
-  }
+
   .work__section_line {
     width: 45%;
     align-self: center;

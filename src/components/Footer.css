@@ -32,9 +32,11 @@
 
 /*Medium screens Size - MD/
 /*size md*/
-/* @media (min-width: 768px) {
-  .
-} */
+@media (min-width: 768px) {
+  .contact__container {
+    font-size: var(--size-3xl);
+  }
+}
 
 /*Large screens Size - LG/
 /*size lg*/

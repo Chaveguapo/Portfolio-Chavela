@@ -69,6 +69,7 @@
 @media (min-width: 768px) {
   .about__content {
     flex-direction: row;
+    padding-top: 3rem;
   }
 
   .about__line {

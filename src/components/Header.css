@@ -9,6 +9,16 @@
   padding-bottom: 2rem;
   position: relative;
   z-index: 9999;
+  background-color: var(--clr-dark);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .header {
+  padding-top: 2rem;
 }
 
 .header__menu {
@@ -29,7 +39,6 @@
 @media (min-width: 768px) {
   .header {
     position: sticky;
-    position: -webkit-sticky;
   }
   .header__menu {
     display: flex;

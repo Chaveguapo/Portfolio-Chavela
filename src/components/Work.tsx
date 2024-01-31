@@ -17,7 +17,7 @@ export default function Work() {
           </h1>
           <div className="work__section_line"></div>
         </div>
-        <div className="work__container ">
+        <div className="work__container  ">
           {/* Flip Card 1 */}
           <div className=" flip-card ">
             <div className="flip-card-inner ">

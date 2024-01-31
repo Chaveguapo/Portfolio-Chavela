@@ -55,14 +55,14 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 900em;
+  scroll-padding-top: 7em;
 }
 
 body {
   background-color: var(--clr-dark);
   color: var(--clr-light);
   font-weight: var(--fw-regular);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   position: relative;
   color: var(--clr-light);
   font-family: var(--ff-base);

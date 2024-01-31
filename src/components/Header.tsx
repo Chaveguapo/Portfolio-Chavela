@@ -3,7 +3,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <header className="header">
+    <header className="header sticky ">
       <ul className="header__menu">
         <li>
           <a href="#hero" className="header__link">
