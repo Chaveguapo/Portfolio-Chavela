@@ -1,9 +1,15 @@
-import Footer from "./Footer";
 import "./Header.css";
+import { useState } from "react";
 
 export default function Header() {
+  const [isNavVisible, setIsNavVisible] = useState(false);
+
+  function toggleNav() {
+    setIsNavVisible(!isNavVisible);
+  }
+
   return (
-    <header className="header sticky ">
+    <header className="header ">
       <ul className="header__menu">
         <li>
           <a href="#hero" className="header__link">
@@ -32,46 +38,66 @@ export default function Header() {
           <span className="material-icons header__sun">light_mode</span>
         </li>
       </ul>
-      <button>
+
+      {/*Aria Expande->> Indicates whether a grouping element that is the accessibility child of or is controlled by this element is expanded or collapsed.*/}
+
+      <button
+        onClick={toggleNav}
+        className="header__bars"
+        aria-expanded={isNavVisible}
+      >
         <span className="material-icons header__bars">menu</span>
       </button>
 
       {/*  // <------- Start Mobile Navigation------->*/}
 
-      <div className="mobile_nav">
+      <div
+        id="burger"
+        className={`mobile_nav ${isNavVisible ? "mobile__nav-show" : ""}`}
+      >
         <nav>
           <ul className="mobile_nav-menu">
+            <button
+              onClick={toggleNav}
+              className="mobile__nav-close"
+              aria-expanded={isNavVisible}
+            >
+              <span className="material-icons header__bars">close</span>
+            </button>
             <li>
-              <a className="mobile_nav-link" href="#home">
+              <a className="mobile_nav-link" onClick={toggleNav} href="#home">
                 Home
               </a>
             </li>
             <li>
-              <a className="mobile_nav-link" href="#about">
+              <a className="mobile_nav-link" onClick={toggleNav} href="#about">
                 About
               </a>
             </li>
 
             <li>
-              <a className="mobile_nav-link" href="work">
+              <a className="mobile_nav-link" onClick={toggleNav} href="#work">
                 Work
               </a>
             </li>
             <li>
-              <a className="mobile_nav-link" href="contact">
+              <a
+                className="mobile_nav-link"
+                onClick={toggleNav}
+                href="#contact"
+              >
                 Contact
               </a>
-            </li>
-            <li>
-              <span className="material-icons mobile_nav-sun">light_mode</span>
             </li>
             <li>
               <button className="mobile_nav-btn btn">Resume</button>
             </li>
           </ul>
+          <button>
+            <span className="material-icons mobile_nav-sun">light_mode</span>
+          </button>
         </nav>
       </div>
-      {/*  // <------- End Mobile Navigation------->*/}
     </header>
   );
 }
