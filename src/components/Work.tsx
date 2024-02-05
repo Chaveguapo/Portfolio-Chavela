@@ -90,7 +90,7 @@ export default function Work() {
             </div>
           </div>
           {/* Flip Card 5 */}
-          <div className="flip-card">
+          {/* <div className="flip-card">
             <div className=" flip-card-inner ">
               <img src={EmotionApp} className="flip__image_front" alt=""></img>
               <div className="flip-card-front">
@@ -101,7 +101,7 @@ export default function Work() {
                 <button className="button_inside">See more!</button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
