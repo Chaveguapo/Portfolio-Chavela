@@ -16,12 +16,12 @@
 
 .hero__subtitle {
   font-size: var(--size-lg);
-  color: var(--clr-light);
+  color: var(--clr-text);
   line-height: 0.4;
 }
 
 .hero__title {
-  color: var(--clr-light);
+  color: var(--clr-text);
   text-transform: capitalize;
   font-size: var(--size-4xl);
   letter-spacing: -0.04rem; /*Relative to font-size of the root element*/

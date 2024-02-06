@@ -29,7 +29,7 @@
   text-align: center;
   font-size: var(--size-3xl);
   letter-spacing: -0rem;
-  color: var(--clr-light);
+  color: var(--clr-text);
 }
 
 .about__description {
@@ -81,7 +81,7 @@
     line-height: 1.1;
     text-align: center;
     font-size: var(--size-3xl);
-    color: var(--clr-light);
+    color: var(--clr-text);
   }
 
   .about__description {
@@ -106,7 +106,7 @@
 @media (min-width: 1024px) {
   .about__quote {
     font-size: var(--size-5xl);
-    color: var(--clr-light);
+    color: var(--clr-text);
   }
 
   .about__description {

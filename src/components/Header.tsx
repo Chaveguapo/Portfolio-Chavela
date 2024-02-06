@@ -4,8 +4,19 @@ import { useState } from "react";
 export default function Header() {
   const [isNavVisible, setIsNavVisible] = useState(false);
 
+  const [isDark, setIsDark] = useState(true);
+
   function toggleNav() {
     setIsNavVisible(!isNavVisible);
+  }
+
+  function toogleDarkTheme() {
+    if (isDark) {
+      document.body.classList.remove("dark__theme");
+    } else {
+      document.body.classList.add("dark__theme");
+    }
+    setIsDark(!isDark);
   }
 
   return (
@@ -35,7 +46,12 @@ export default function Header() {
           <button className="header__resume btn">Resume</button>
         </li>
         <li>
-          <span className="material-icons header__sun">light_mode</span>
+          <span
+            className="material-icons header__sun"
+            onClick={toogleDarkTheme}
+          >
+            {isDark ? "light_mode" : "dark_mode"}
+          </span>
         </li>
       </ul>
 
@@ -94,7 +110,12 @@ export default function Header() {
             </li>
           </ul>
           <button>
-            <span className="material-icons mobile_nav-sun">light_mode</span>
+            <span
+              className="material-icons mobile_nav-sun"
+              onClick={toogleDarkTheme}
+            >
+              {isDark ? "light_mode" : "dark_mode"}
+            </span>
           </button>
         </nav>
       </div>

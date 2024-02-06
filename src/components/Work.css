@@ -36,7 +36,7 @@
   background-color: var(--clr-primary);
   font-size: var(--size-md);
   font-weight: 600;
-  color: var(--clr-dark);
+  color: var(--clr-background);
   display: inline-block;
   font-weight: 400;
   text-decoration: none;
@@ -75,7 +75,7 @@
   border: 1px solid var(--clr-primary);
   padding: 1.8rem;
   border-radius: 0 0 0.5rem 0.5rem;
-  background-color: var(--clr-dark);
+  background-color: var(--clr-background);
 }
 
 /*------------CSS flip back content--------*/
@@ -87,7 +87,7 @@
 
 .card__background_back {
   padding: 2rem;
-  background-color: var(--clr-dark);
+  background-color: var(--clr-background);
   border: 2px solid var(--clr-primary);
   border-radius: 0.8rem;
 }
