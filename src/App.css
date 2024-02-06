@@ -29,9 +29,10 @@
 .dark__theme {
   --clr-background: #1b1c17;
   --clr-text: #e1e7c5;
-  --clr-primary: #bae718;
+  --clr-primary: #b6d167;
   --clr-secondary: #c5cbaa;
-  --clr-accent: #b6d167;
+  --clr-accent: #bae718;
+
   --btn-shadow: inset 0 0 0.5em 0 var(--clr-primary),
     0 0 0.5em 0 var(--clr-primary);
 }
@@ -66,7 +67,6 @@ body {
   --clr-primary: #5e0030;
   --clr-secondary: #e0e6c4;
   --clr-accent: #a80f5e;
-  --btn-shadow: none;
 }
 
 h1,
