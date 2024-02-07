@@ -107,6 +107,10 @@ a {
   color: var(--clr-primary);
 }
 
+a:hover {
+  color: var(--clr-accent);
+}
+
 strong {
   color: var(--clr-accent);
 }

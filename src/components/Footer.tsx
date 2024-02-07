@@ -3,12 +3,8 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <>
-      <footer
-        id="contact"
-        className="contact__container section
-      "
-      >
-        <p>
+      <footer id="contact" className="contact__container section">
+        <p className="contact__text">
           Reach out, let's make
           <br /> something amazing together!
         </p>
@@ -16,8 +12,8 @@ export default function Footer() {
           <button className="btn contact__button ">Send a raven</button>
         </div>
         <div className="contact__icons">
-          <i className="devicon-linkedin-plain "></i>
-          <i className="devicon-github-original "></i>
+          <a className="devicon-linkedin-plain "></a>
+          <a className="devicon-github-original "></a>
         </div>
         <span className="contact__copyright"> Chavela Guapo </span>
       </footer>

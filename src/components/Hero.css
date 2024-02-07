@@ -43,7 +43,9 @@
 .hero__iconscolor {
   color: var(--clr-primary);
   font-size: var(--size-md);
+  text-decoration: none;
 }
+
 
 .hero__contact_icons {
   display: flex;

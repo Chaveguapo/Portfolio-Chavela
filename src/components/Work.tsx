@@ -4,7 +4,6 @@ import Pubquiz from "../assets/Images/Pubquiz.png";
 import NewsHomePage from "../assets/Images/NewsHomePage.png";
 import Articlepreview from "../assets/Images/Articlepreview.png";
 import woofApp from "../assets/Images/woofApp.png";
-import EmotionApp from "../assets/Images/EmotionApp.png";
 
 export default function Work() {
   return (
@@ -32,7 +31,16 @@ export default function Work() {
                   languages, one evolves from novice to digital wizard, creating
                   wonders with code.
                 </p>
-                <button className="button_inside">See more!</button>
+                <button>
+                  <a
+                    className="button_inside"
+                    href="https://github.com/Chaveguapo/Flashcards_Quiz"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See more
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -53,7 +61,16 @@ export default function Work() {
                   Creating from scratch is challenging yet rewarding, offering a
                   fulfilling dive into the coding world.
                 </p>
-                <button className="button_inside">See more!</button>
+                <button>
+                  <a
+                    className="button_inside"
+                    href="https://github.com/Chaveguapo/news-webpage-main"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See more
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -71,7 +88,16 @@ export default function Work() {
               </div>
               <div className="flip-card-back card__background_back">
                 <p>Details about Pet-projects...</p>
-                <button className="button_inside">See more!</button>
+                <button>
+                  <a
+                    className="button_inside"
+                    href="https://github.com/Chaveguapo/Article-preview/tree/main/article-preview-component-master"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See more
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -85,7 +111,16 @@ export default function Work() {
               </div>
               <div className="flip-card-back card__background_back">
                 <p>Current project details...</p>
-                <button className="button_inside">See more!</button>
+                <button>
+                  <a
+                    className="button_inside"
+                    href="https://www.figma.com/proto/mslF18HukBZLdwRFcsx5Uf/Woof-Nutritional-App?page-id=337%3A374&type=design&node-id=607-3865&viewport=738%2C548%2C0.14&t=oZGXrmmcHhYvmZVi-1&scaling=scale-down&starting-point-node-id=607%3A3865&mode=design"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See more
+                  </a>
+                </button>
               </div>
             </div>
           </div>

@@ -17,8 +17,18 @@ export const Hero = () => {
         </div>
 
         <div className="hero__contact_icons">
-          <i className="devicon-linkedin-plain hero__iconscolor  "></i>
-          <i className="devicon-github-original hero__iconscolor "></i>
+          <a
+            className="devicon-linkedin-plain hero__iconscolor"
+            href=""
+            target="_blank"
+            rel="noreferrer"
+          ></a>
+          <a
+            className="devicon-github-original hero__iconscolor"
+            href="https://github.com/Chaveguapo"
+            target="_blank"
+            rel="noreferrer"
+          ></a>
         </div>
       </div>
     </>
