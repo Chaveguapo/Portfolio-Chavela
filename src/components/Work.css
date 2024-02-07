@@ -41,10 +41,10 @@
   font-weight: 400;
   text-decoration: none;
   letter-spacing: -0.02em;
-  padding: 0.4em 1em;
+  padding: 7px 7px;
   border-radius: 0.25em;
   align-self: center;
-  width: 70%;
+  width: 50%;
 }
 
 /*----------Flip Card effects----------*/
@@ -69,6 +69,7 @@
 .flip__image_front {
   max-width: 18rem;
   border-radius: 0.8rem;
+  border: 1px solid var(--clr-primary);
 }
 
 .background_text_front {
@@ -88,7 +89,7 @@
 .card__background_back {
   padding: 2rem;
   background-color: var(--clr-background);
-  border: 2px solid var(--clr-primary);
+  border: 1px solid var(--clr-primary);
   border-radius: 0.8rem;
 }
 .button__size {
@@ -120,6 +121,7 @@
   line-height: 1.2;
   letter-spacing: -0.03rem;
   justify-content: end;
+
   /* padding-bottom: 3rem; */
 }
 
