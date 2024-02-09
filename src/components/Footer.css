@@ -9,7 +9,6 @@
   text-align: center;
   font-family: var(--ff-accent);
   font-size: var(--size-3xl);
-
   line-height: 1.1;
   padding-bottom: 13rem;
   gap: 2rem;
@@ -28,11 +27,16 @@
   gap: 1rem;
   color: var(--clr-primary);
   padding-top: 3rem;
+  text-decoration: none;
 }
 .contact__copyright {
   font-family: var(--ff-base);
   font-size: var(--size-xs);
   opacity: 40%;
+}
+
+.contact__decor {
+  text-decoration: none;
 }
 
 /*Medium screens Size - MD/

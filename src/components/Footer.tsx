@@ -11,9 +11,23 @@ export default function Footer() {
         <div>
           <button className="btn contact__button ">Send a raven</button>
         </div>
-        <div className="contact__icons">
-          <a className="devicon-linkedin-plain "></a>
-          <a className="devicon-github-original "></a>
+        <div className="contact__icons contact__decor">
+          <a
+            className=" contact__decor"
+            href="https://github.com/Chaveguapo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <image className="devicon-linkedin-plain" />
+          </a>
+          <a
+            className=" contact__decor"
+            href="https://github.com/Chaveguapo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <image className="devicon-github-original" />
+          </a>
         </div>
         <span className="contact__copyright"> Chavela Guapo </span>
       </footer>
