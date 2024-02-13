@@ -23,7 +23,7 @@ export const Hero = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <image className="devicon-linkedin-plain" />
+            <span className="devicon-linkedin-plain" />
           </a>
           <a
             className="hero__iconscolor"
@@ -31,7 +31,7 @@ export const Hero = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <image className="devicon-github-original" />
+            <span className="devicon-github-original" />
           </a>
         </div>
       </div>

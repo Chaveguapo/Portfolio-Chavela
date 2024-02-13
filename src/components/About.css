@@ -32,6 +32,9 @@
   color: var(--clr-text);
 }
 
+.about__author-quote {
+  font-size: var(--size-sm);
+}
 .about__description {
   letter-spacing: -0.03rem;
   font-size: var(--size-md);

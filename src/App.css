@@ -4,8 +4,12 @@
   --fw-regular: 400;
   --fw-bold: 600;
 
-  /*primary:rgb(126, 246, 149)*/
-  /*accent :rgb(47, 11, 150);*/
+  /* Light theme */
+  --clr-background: #fff;
+  --clr-text: #000000;
+  --clr-primary: #5e0030;
+  --clr-secondary: #e0e6c4;
+  --clr-accent: #a80f5e;
 
   /*Sizes*/
 
@@ -63,13 +67,6 @@ body {
   line-height: 1.6;
   min-width: 300px;
 
-  /* Light theme */
-  --clr-background: #fff;
-  --clr-text: #000000;
-  --clr-primary: #5e0030;
-  --clr-secondary: #e0e6c4;
-  --clr-accent: #a80f5e;
-
   background-image: url(./assets/Peaks.svg);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -108,7 +105,7 @@ a {
 }
 
 a:hover {
-  color: var(--clr-accent);
+  color: var(--clr-text);
 }
 
 strong {

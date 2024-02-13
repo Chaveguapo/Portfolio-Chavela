@@ -46,9 +46,8 @@
   color: var(--clr-primary);
 }
 .mobile_nav-sun {
-  display: block;
-  position: absolute;
-  bottom: 3rem;
+  display: flex;
+  padding-top: 10rem;
   font-size: var(--size-2xl);
 }
 
@@ -65,7 +64,7 @@
   align-items: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  position: relative;
+
   z-index: 9999;
   background-color: var(--clr-background);
 }
@@ -76,7 +75,7 @@
   display: block;
   height: 1px;
   left: 50%;
-  position: relative;
+
   background: var(--clr-primary);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;

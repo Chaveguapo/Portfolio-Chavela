@@ -1,21 +1,26 @@
 import "./Header.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Header() {
-  const [isNavVisible, setIsNavVisible] = useState(false);
+  const [isNavVisible, setIsNavVisible] = useState<boolean>(false);
 
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState<boolean>(() => {
+    const storedTheme = localStorage.getItem("isDarkTheme");
+
+    return storedTheme ? JSON.parse(storedTheme) : true;
+  });
+
+  useEffect(() => {
+    const className = "dark__theme";
+    document.body.classList.toggle(className, isDark);
+    localStorage.setItem("isDarkTheme", JSON.stringify(isDark));
+  }, [isDark]);
 
   function toggleNav() {
     setIsNavVisible(!isNavVisible);
   }
 
-  function toogleDarkTheme() {
-    if (isDark) {
-      document.body.classList.remove("dark__theme");
-    } else {
-      document.body.classList.add("dark__theme");
-    }
+  function toggleDarkTheme() {
     setIsDark(!isDark);
   }
 
@@ -48,7 +53,7 @@ export default function Header() {
         <li>
           <span
             className="material-icons header__sun"
-            onClick={toogleDarkTheme}
+            onClick={toggleDarkTheme}
           >
             {isDark ? "light_mode" : "dark_mode"}
           </span>
@@ -112,7 +117,7 @@ export default function Header() {
           <button>
             <span
               className="material-icons mobile_nav-sun"
-              onClick={toogleDarkTheme}
+              onClick={toggleDarkTheme}
             >
               {isDark ? "light_mode" : "dark_mode"}
             </span>
