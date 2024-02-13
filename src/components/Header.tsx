@@ -10,7 +10,7 @@ export default function Header() {
     setIsNavVisible(!isNavVisible);
   }
 
-  function toogleDarkTheme() {
+  function toggleDarkTheme() {
     if (isDark) {
       document.body.classList.remove("dark__theme");
     } else {
@@ -48,7 +48,7 @@ export default function Header() {
         <li>
           <span
             className="material-icons header__sun"
-            onClick={toogleDarkTheme}
+            onClick={toggleDarkTheme}
           >
             {isDark ? "light_mode" : "dark_mode"}
           </span>
@@ -112,7 +112,7 @@ export default function Header() {
           <button>
             <span
               className="material-icons mobile_nav-sun"
-              onClick={toogleDarkTheme}
+              onClick={toggleDarkTheme}
             >
               {isDark ? "light_mode" : "dark_mode"}
             </span>

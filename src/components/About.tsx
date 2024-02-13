@@ -8,19 +8,21 @@ export default function About() {
           <h1 className="about__quote">
             Guided by a motto:
             <strong>
-              <br /> "Journey before <br /> destination" B.S
+              <br /> "Journey before <br /> destination"
             </strong>
+            <p className="about__author-quote">Brandon Sanderson</p>
           </h1>
           <div className="about__line"></div>
           <article className="about__description ">
-            Passionate about everything green, I'm a book lover and
+            My journey into web development began with a curiosity for user
+            experience. I was fascinated by
             <strong>
-              &nbsp; lifelong learner who thrives in blending UX design with the
-              dynamism of web development.
+              &nbsp; the idea of creating intuitive and engaging interfaces that
+              made people's lives easier.
             </strong>
-            &nbsp; My journey is one of constant discovery, where nurturing
-            plants, diving into books, and exploring the latest in tech all
-            merge into an exciting quest for knowledge.
+            &nbsp; Since then, I have immersed myself in the world of web
+            development, constantly learning and exploring new technologies and
+            solutions.
           </article>
         </div>
 
