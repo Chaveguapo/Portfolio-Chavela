@@ -27,10 +27,10 @@ export default function Work() {
               </div>
               <div className="flip-card-back card__background_back">
                 <p>
-                  Learning to code is a magical journey, unveiling secrets of
-                  algorithms and data. Facing challenges and uncovering
-                  languages, one evolves from novice to digital wizard, creating
-                  wonders with code.
+                  Embraced the challenge of learning React and CSS while
+                  building an interactive pub quiz. Implemented engaging
+                  features like question types with API integration, maybe I'll
+                  include scoring, and real-time feedback.
                 </p>
                 <button>
                   <a
@@ -59,8 +59,9 @@ export default function Work() {
               </div>
               <div className="flip-card-back  card__background_back ">
                 <p>
-                  Creating from scratch is challenging yet rewarding, offering a
-                  fulfilling dive into the coding world.
+                  Dived into CSS exploration through a card challenge. Conquered
+                  flexbox properties, honed layout skills, and gained a deeper
+                  understanding of responsive design.
                 </p>
                 <button>
                   <a
@@ -88,7 +89,11 @@ export default function Work() {
                 <p className="background_text_front">Article preview</p>
               </div>
               <div className="flip-card-back card__background_back">
-                <p>Details about Pet-projects...</p>
+                <p>
+                  Embarked on a comprehensive news webpage creation. Leveraged
+                  media queries to optimize the layout in differents screen
+                  sizes.
+                </p>
                 <button>
                   <a
                     className="button_inside"
@@ -111,7 +116,11 @@ export default function Work() {
                 <p className="background_text_front">Woof</p>
               </div>
               <div className="flip-card-back card__background_back">
-                <p>Current project details...</p>
+                <p>
+                  A user-centric design journey for a "Woof" project. Conducted
+                  research, crafted wireframes and prototypes, gathered user
+                  feedback, and delivered a high-fidelity prototype.
+                </p>
                 <button>
                   <a
                     className="button_inside"
@@ -133,17 +142,23 @@ export default function Work() {
                 <p className="background_text_front">Currently Working on</p>
               </div>
               <div className="flip-card-back card__background_back">
-                <p>Current project details...</p>
-                <button>
-                  <a
+                <p>
+                  Netflix Clone: Learning by Building Crafting a Netflix clone
+                  to hone skills in recommendation algorithms, API integration,
+                  and user experience.&nbsp;
+                  <strong>
+                    Coming soon: New projects and discoveries from my coding
+                    journey.
+                  </strong>
+                </p>
+                <div>
+                  {/* <a
                     className="button_inside"
                     href="https://www.figma.com/proto/mslF18HukBZLdwRFcsx5Uf/Woof-Nutritional-App?page-id=337%3A374&type=design&node-id=607-3865&viewport=738%2C548%2C0.14&t=oZGXrmmcHhYvmZVi-1&scaling=scale-down&starting-point-node-id=607%3A3865&mode=design"
                     target="_blank"
                     rel="noreferrer"
-                  >
-                    See more
-                  </a>
-                </button>
+                  ></a> */}
+                </div>
               </div>
             </div>
           </div>
