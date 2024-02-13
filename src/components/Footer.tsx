@@ -18,7 +18,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <image className="devicon-linkedin-plain" />
+            <span className="devicon-linkedin-plain" />
           </a>
           <a
             className=" contact__decor"
@@ -26,7 +26,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <image className="devicon-github-original" />
+            <span className="devicon-github-original" />
           </a>
         </div>
         <span className="contact__copyright"> Chavela Guapo </span>

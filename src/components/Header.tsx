@@ -1,21 +1,26 @@
 import "./Header.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Header() {
-  const [isNavVisible, setIsNavVisible] = useState(false);
+  const [isNavVisible, setIsNavVisible] = useState<boolean>(false);
 
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState<boolean>(() => {
+    const storedTheme = localStorage.getItem("isDarkTheme");
+
+    return storedTheme ? JSON.parse(storedTheme) : true;
+  });
+
+  useEffect(() => {
+    const className = "dark__theme";
+    document.body.classList.toggle(className, isDark);
+    localStorage.setItem("isDarkTheme", JSON.stringify(isDark));
+  }, [isDark]);
 
   function toggleNav() {
     setIsNavVisible(!isNavVisible);
   }
 
   function toggleDarkTheme() {
-    if (isDark) {
-      document.body.classList.remove("dark__theme");
-    } else {
-      document.body.classList.add("dark__theme");
-    }
     setIsDark(!isDark);
   }
 
