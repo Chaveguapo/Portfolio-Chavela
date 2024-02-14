@@ -28,9 +28,7 @@ export default function Work() {
               <div className="flip-card-back card__background_back">
                 <p>
                   Embraced the challenge of learning React and CSS while
-                  building an interactive pub quiz. Implemented engaging
-                  features like question types with API integration, maybe I'll
-                  include scoring, and real-time feedback.
+                  building an interactive pub quiz.
                 </p>
                 <button>
                   <a

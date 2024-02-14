@@ -64,10 +64,16 @@
   align-items: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
-
   z-index: 9999;
   background-color: var(--clr-background);
+  width: auto;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0; /* Set to the top of the viewport */
+  background-color: var(--clr-background); /* Dark background for visibility */
+  padding: 10px 0; /* Some padding */
 }
+
 .header__link::after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;

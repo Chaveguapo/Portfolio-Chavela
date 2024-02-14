@@ -48,7 +48,14 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <button className="header__resume btn">Resume</button>
+          <a
+            className="header__resume btn"
+            href="https://drive.google.com/file/d/11HKpJadCEp92-Kp8yWTFOYvlcimS3K3b/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </li>
         <li>
           <span
@@ -111,7 +118,14 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <button className="mobile_nav-btn btn">Resume</button>
+              <a
+                className="header__resume btn"
+                href="https://drive.google.com/file/d/11HKpJadCEp92-Kp8yWTFOYvlcimS3K3b/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
             </li>
           </ul>
           <button>

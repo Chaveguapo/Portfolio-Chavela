@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="contact__icons contact__decor">
           <a
             className=" contact__decor"
-            href="https://github.com/Chaveguapo"
+            href="https://www.linkedin.com/in/chavela/"
             target="_blank"
             rel="noreferrer"
           >
