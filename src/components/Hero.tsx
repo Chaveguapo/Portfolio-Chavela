@@ -19,7 +19,7 @@ export const Hero = () => {
         <div className="hero__contact_icons">
           <a
             className="hero__iconscolor"
-            href="https://github.com/Chaveguapo"
+            href="https://www.linkedin.com/in/chavela/"
             target="_blank"
             rel="noreferrer"
           >
