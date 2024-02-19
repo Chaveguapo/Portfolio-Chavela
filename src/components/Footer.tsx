@@ -29,7 +29,7 @@ export default function Footer() {
             <span className="devicon-github-original" />
           </a>
         </div>
-        <span className="contact__copyright"> Chavela Guapo </span>
+        <span className="contact__copyright">| &copy; Cindy Chavez |</span>
       </footer>
     </>
   );
