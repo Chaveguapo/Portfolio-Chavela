@@ -15,7 +15,6 @@ export default function App() {
         <About />
         <Work />
         <Footer />
-        {/* <div className="spacer spacer__background "></div> */}
       </div>
     </>
   );
