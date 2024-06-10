@@ -89,7 +89,7 @@ export default function Work() {
               <div className="flip-card-back card__background_back">
                 <p>
                   Embarked on a comprehensive news webpage creation. Leveraged
-                  media queries to optimize the layout in differents screen
+                  media queries to optimize the layout in different screen
                   sizes.
                 </p>
                 <button>
@@ -141,9 +141,7 @@ export default function Work() {
               </div>
               <div className="flip-card-back card__background_back">
                 <p>
-                  Netflix Clone: Learning by Building Crafting a Netflix clone
-                  to hone skills in recommendation algorithms, API integration,
-                  and user experience.&nbsp;
+                  Exploring Vue.&nbsp;
                   <strong>
                     Coming soon: New projects and discoveries from my coding
                     journey.
@@ -152,7 +150,7 @@ export default function Work() {
                 <div>
                   {/* <a
                     className="button_inside"
-                    href="https://www.figma.com/proto/mslF18HukBZLdwRFcsx5Uf/Woof-Nutritional-App?page-id=337%3A374&type=design&node-id=607-3865&viewport=738%2C548%2C0.14&t=oZGXrmmcHhYvmZVi-1&scaling=scale-down&starting-point-node-id=607%3A3865&mode=design"
+                    href="https://spectacular-manatee-48502a.netlify.app"
                     target="_blank"
                     rel="noreferrer"
                   ></a> */}
