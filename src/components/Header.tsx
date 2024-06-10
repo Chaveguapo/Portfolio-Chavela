@@ -50,7 +50,7 @@ export default function Header() {
         <li>
           <a
             className="header__resume btn"
-            href="https://drive.google.com/file/d/11HKpJadCEp92-Kp8yWTFOYvlcimS3K3b/view?usp=sharing"
+            href="https://drive.google.com/file/d/1uN_eQ2bXJlC1coaapHPtQ5T1ARYeEc2w/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -67,7 +67,7 @@ export default function Header() {
         </li>
       </ul>
 
-      {/*Aria Expande->> Indicates whether a grouping element that is the accessibility child of or is controlled by this element is expanded or collapsed.*/}
+      {/*Aria Expanded->> Indicates whether a grouping element that is the accessibility child of or is controlled by this element is expanded or collapsed.*/}
 
       <button
         onClick={toggleNav}
