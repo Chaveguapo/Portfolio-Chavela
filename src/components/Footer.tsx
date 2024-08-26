@@ -9,7 +9,9 @@ export default function Footer() {
           <br /> something amazing together!
         </p>
         <div>
-          <button className="btn contact__button ">Send a raven</button>
+          <a href="mailto:catakeas@gmail.com">
+            <button className="btn contact__button ">Send a raven</button>
+          </a>
         </div>
         <div className="contact__icons contact__decor">
           <a
