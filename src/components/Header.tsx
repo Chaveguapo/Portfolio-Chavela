@@ -50,7 +50,7 @@ export default function Header() {
         <li>
           <a
             className="header__resume btn"
-            href="https://drive.google.com/file/d/1GFVNbnv9A4nFD7fGp89XTw_vK0IG4HOM/view?usp=sharing"
+            href="https://drive.google.com/file/d/1EUwOOmTMcWS-ZEA-I0URJdLcsnPteVME/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
